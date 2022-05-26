@@ -1,0 +1,83 @@
+/* File: style.css
+GUI Assignment: Creating Your First Web Page
+Wesley Gallo,  UMass Lowell Computer Science, Wesley_Gallo@student.uml.edu
+
+First Web Page
+Copyright (c) 2022 by WGallo. All rights reserved. May be freely copied or 
+excerpted for educational purposes with credit to the author.
+updated by WG on May 25, 2022 at 9:30 PM */
+
+/* Documentation */
+
+/* Below references h1 changing the header to yellow and background color to black, while centering */
+h1 {
+	text-align: center;
+	color: yellow;
+	background-color: black;
+	font-weight: 900;
+
+}
+
+/* The paragraph not kept within boarders is updated here to be a center and short description fo the webpage */
+.Zeus1 {
+	text-align: center;
+	font-style: italic;
+}
+
+/* Here the body of the webpage is upaded and background choosen to be lightblue */
+body {
+	background-color: lightblue;
+	padding: 50px;
+}
+
+/* Div allows me update each division on my webpage, and changging the boarder and locatuion */
+div {
+	border: 3px solid Blue;
+	padding: 20px;
+	margin: auto;
+	width: 60%;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* Images and sizing are updated here and I decided the best way for me to update them in the box was through a float */
+img {
+	width: 200px;
+	float: right;
+}
+
+.Zeus2::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+table,
+th,
+td {
+	border: 3px solid black;
+	background-color: yellow;
+	font-weight: Bold;
+	text-align: center;
+}
+
+/* Below is all information on the Link and updates styling when clicked or not clicked, or hovered over*/
+
+a:link,
+a:visited {
+	text-decoration: none;
+	text-align: center;
+	color: yellow;
+	background-color: royalblue;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: lightblue;
+}
+
+a:active {
+	text-decoration: underline;
+}
